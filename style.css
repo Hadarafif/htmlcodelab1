@@ -1,0 +1,77 @@
+body{
+    h1{
+        text-align: center;
+        align-items: center;
+        color: rgb(0, 16, 240);
+    }
+    background-image: url(bima.jpg);
+    background-size: 30px;   
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th:nth-child(1) {
+    background-color: yellow;
+    color: black;
+}
+th:nth-child(2){
+    background-color: cyan;
+    color: azure;
+}
+th:nth-child(){
+    background-color: pink;
+    color: black;
+}
+
+td:nth-child(1) {
+    background-color: lightblue;
+}
+
+td:nth-child(2) {
+    background-color: lightgreen;
+}
+
+td:nth-child(3) {
+    background-color: rgb(2, 19, 255);
+}
+
+td:nth-child(1), td:nth-child(2), td:nth-child(3) {
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(2) td:nth-child(1){
+    background-color: rgb(74, 78, 82);
+}
+tr:nth-child(3) td:nth-child(1){
+    background-color: rgb(248, 0, 0);
+}
+tr:nth-child(4) td:nth-child(1) {
+    background-color: cyan;
+}
+
+tr:nth-child(2) td:nth-child(2){
+    background-color: blue;
+}
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(4) td:nth-child(2) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(2) td:nth-child(3),
+tr:nth-child(3) td:nth-child(3),
+tr:nth-child(4) td:nth-child(3) {
+    background-color: pink;
+}
+
